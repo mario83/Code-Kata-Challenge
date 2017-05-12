@@ -7,6 +7,11 @@ Simple REST-ful service for vote counting and results generating system.
  - Jersey
  - Jetty
 
+### Requirement
+
+ - JDK 1.8
+ - Maven 3.2
+
 ### Example
  
 ```
@@ -35,7 +40,7 @@ public class PollService {
 
 ```
 mvn package
-mvn exec:run
+mvn exec:java
 ```
 Rest Server start at After that you can use curl or your browser to test the different services.
 
