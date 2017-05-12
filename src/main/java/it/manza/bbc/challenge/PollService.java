@@ -44,6 +44,7 @@ public class PollService {
 	}
 	
 	/**
+	 * Get Poll Object
 	 * @return voteResult (total vote and map with candidate and relative number of votes)
 	 */
 	@GET
@@ -65,6 +66,7 @@ public class PollService {
 	}
 	
 	/**
+	 * Add vote to poll
 	 * @param pollName
 	 * @param vote
 	 * @return
@@ -72,7 +74,7 @@ public class PollService {
 	@POST
 	@Path("/{pollName}")
 	@Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
+    	@Consumes(MediaType.APPLICATION_JSON)
 	public Response countMeUp(
 		@PathParam("pollName") String pollName, Vote vote) {
 
