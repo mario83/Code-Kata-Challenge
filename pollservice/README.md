@@ -24,7 +24,7 @@ public class PollService {
 	@POST
 	@Path("/{pollName}")
 	@Produces(MediaType.APPLICATION_JSON)
-    @Consumes(MediaType.APPLICATION_JSON)
+    	@Consumes(MediaType.APPLICATION_JSON)
 	public Response countMeUp(
 		@PathParam("pollName") String pollName, Vote vote) {
 		...
