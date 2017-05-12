@@ -46,7 +46,7 @@ curl -i http://localhost:2222/poll-service/ -H'Accept:application/json'
 ```
 Response
 ```
-0HTTP/1.1 200 OK
+HTTP/1.1 200 OK
 Date: Thu, 11 May 2017 21:05:00 GMT
 Content-Type: application/json
 Content-Length: 53
